@@ -3244,6 +3244,8 @@ input, select, textarea {
 
 					#nav ul li a.active {
 						background-color: #ffffff;
+						padding-right: 1em;
+						padding-left: 1em;
 						box-shadow: none;
 						color: #000;
 					}
@@ -3670,7 +3672,9 @@ input, select, textarea {
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
-
+	#wrapper.text-left *{
+		text-align: left !important;
+	}
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
