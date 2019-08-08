@@ -322,7 +322,7 @@ input, select, textarea {
 		text-align: right;
 	}
 	.float-right{
-		float: right;
+		float: right !important;
 	}
 
 	.underline {
@@ -2916,9 +2916,19 @@ input, select, textarea {
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
 			border-radius: 100%;
 			border: solid 1px;
+			padding: 0.65em;
+		}
+		.spotlight .image.plain{
+			max-height: 180px;
+			max-width: 240px;
+			margin-left: 2em;
+			border-radius: 0px;
+			border: 0px;
+			padding: 0;
+			float: right;
+			display: inline;
 		}
 		.spotlight.images a{
 			text-decoration: none !important;
