@@ -3672,7 +3672,7 @@ input, select, textarea {
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
-	#wrapper.text-left *{
+	#main.text-left *{
 		text-align: left !important;
 	}
 		@media screen and (max-width: 480px) {
