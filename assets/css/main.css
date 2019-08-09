@@ -11,6 +11,11 @@
 	--primary: #6644ff;
 	--primary-hover: #5533ee;
 	--background: #222;
+	--roadmap-color: #5533ee;
+	--roadmap-done-color: #4422ff;
+	--roadmap-future-color: #dd3333;
+	--roadmap-fill-color: #00afff;
+	--roadmap-line-size: 0.19em;
 }
 /*
 	Stellar by HTML5 UP
@@ -3690,8 +3695,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', end
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
-	#main.text-left *{
+	.text-left, .text-left *{
 		text-align: left !important;
+	}
+	.text-right, .text-right *{
+		text-align: right !important;
 	}
 		@media screen and (max-width: 480px) {
 
@@ -3708,3 +3716,113 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', end
 			}
 
 		}
+/***
+	Roadmap
+***/
+
+#main #roadmap-title{
+	text-align: center !important;
+	padding-bottom:1em;
+	margin-top:2em;
+}
+.roadmap ul.done{
+	margin-right: 50%;
+	text-align:right !important;
+	margin-bottom: 0px;
+}
+.roadmap ul.future{
+	margin-left: calc( 50% - 1.2em);
+	text-align: left
+}
+.roadmap li{
+	padding-top: 1.7em;
+	list-style: none;
+	padding-left:0px;
+	padding-right:0px;
+	font-size: 1.1em;
+}
+.roadmap li.future{
+	border-left: var(--roadmap-line-size) solid var(--roadmap-color);
+	color: var(--roadmap-future-color);
+}
+.roadmap li.done{
+	border-right: var(--roadmap-line-size) solid var(--roadmap-color);
+	color: var(--roadmap-done-color);
+}
+.roadmap li.future:before{
+	border: var(--roadmap-line-size) solid var(--roadmap-color);
+	border-radius: 100%;
+	background-color: white;
+	padding-right: 1.3em;
+	margin-left: -1em;
+	content: " ";
+}
+.roadmap li.done:after{
+	border: var(--roadmap-line-size) solid var(--roadmap-color);
+	border-radius: 100%;
+	background-color: white;
+	padding-left: 1.3em;
+	margin-right: -1em;
+	content: " ";
+	background-color: var(--roadmap-fill-color);
+}
+.roadmap li.done:first-child{
+	padding-top: 0px;
+	padding-right: 5px;
+	border-right: 0px;
+}
+
+.roadmap li span{
+	border: var(--roadmap-line-size) solid var(--roadmap-color);
+	padding: 0 1em;
+	background: white;
+	border-radius: 1em;
+}
+.roadmap li.future span{
+	border-left:0px;
+	margin-left: -0.9em;
+	border-top-left-radius: 0em;
+	border-bottom-left-radius: 0em;
+}
+.roadmap li.done span{
+	background: none;
+	border-right:0px;
+	margin-right:-0.9em;
+	border-top-right-radius: 0em;
+	border-bottom-right-radius: 0em;
+}
+@media screen and (max-width:736px){
+	.roadmap ul.done, .roadmap ul.future {
+		margin-right: 0px;
+		margin-left: 0px;
+		text-align:left !important;
+	}
+	.roadmap li.done, #main #done-list li.done.text-right{
+		border-right: 0px;
+		border-left: var(--roadmap-line-size) solid var(--roadmap-color);
+		text-align: left !important;
+	}
+	.roadmap li.done:before{
+		border: var(--roadmap-line-size) solid var(--roadmap-color);
+		border-radius: 100%;
+		background-color: white;
+		padding-right: 1.3em;
+		margin-left: -1em;
+		content: " ";
+		background-color: var(--roadmap-fill-color);
+	}
+	.roadmap li.done:after{
+		content: none;
+	}
+	.roadmap li.done span{
+		background: none;
+		border-right: var(--roadmap-line-size) solid var(--roadmap-color);
+		margin-right:0em;
+		margin-left: -0.9em;
+		border-left:0px;
+		border-top-left-radius: 0em;
+		border-bottom-left-radius: 0em;
+		border-top-right-radius: 1em;
+		border-bottom-right-radius: 1em;
+	}
+}
