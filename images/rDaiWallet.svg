@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -6,64 +8,102 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 60.682316 13.306657"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60.682316mm"
    height="13.306657mm"
-   width="60.682316mm">
+   viewBox="0 0 60.682316 13.306657"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   sodipodi:docname="rDAI$Wallet.svg">
   <defs
      id="defs2">
     <linearGradient
-       x1="0.093977951"
-       y1="0.88324839"
-       x2="1.061819"
+       id="linearGradient-1"
        y2="0.34569299"
-       id="linearGradient-1">
+       x2="1.061819"
+       y1="0.88324839"
+       x1="0.093977951">
       <stop
-         stop-color="#FF3A54"
+         id="stop889"
          offset="0%"
-         id="stop889" />
+         stop-color="#FF3A54" />
       <stop
-         stop-color="#FFB700"
+         id="stop891"
          offset="41.7289233%"
-         id="stop891" />
+         stop-color="#FFB700" />
       <stop
-         stop-color="#32C065"
+         id="stop893"
          offset="72.4180405%"
-         id="stop893" />
+         stop-color="#32C065" />
       <stop
-         stop-color="#1239FF"
+         id="stop895"
          offset="100%"
-         id="stop895" />
+         stop-color="#1239FF" />
     </linearGradient>
     <linearGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(1.0180798,0.98224127)"
-       y2="260.43787"
-       x2="799.95215"
-       y1="665.42084"
-       x1="70.801018"
+       inkscape:collect="always"
+       xlink:href="#linearGradient-1"
        id="linearGradient919"
-       xlink:href="#linearGradient-1" />
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(1.0180798,0.98224127)"
-       y2="260.43787"
-       x2="799.95215"
-       y1="665.42084"
        x1="70.801018"
-       id="linearGradient921"
-       xlink:href="#linearGradient-1" />
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
+       y1="665.42084"
+       x2="799.95215"
+       y2="260.43787"
        gradientTransform="scale(1.0180798,0.98224127)"
-       y2="448.78262"
-       x2="969.87988"
-       y1="853.76562"
-       x1="240.72876"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient-1"
+       id="linearGradient921"
+       x1="70.801018"
+       y1="665.42084"
+       x2="799.95215"
+       y2="260.43787"
+       gradientTransform="scale(1.0180798,0.98224127)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient-1"
        id="linearGradient923"
-       xlink:href="#linearGradient-1" />
+       x1="240.72876"
+       y1="853.76562"
+       x2="969.87988"
+       y2="448.78262"
+       gradientTransform="scale(1.0180798,0.98224127)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="104.51361"
+     inkscape:cy="42.265095"
+     inkscape:document-units="mm"
+     inkscape:current-layer="Page-1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="20.486773,0.13025652"
+       orientation="0,1"
+       id="guide961"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="20.620408,13.226457"
+       orientation="0,1"
+       id="guide963"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -77,64 +117,67 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-71.587577,-68.13708)"
-     id="layer1">
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-71.587577,-68.13708)">
     <g
-       style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+       id="Page-1"
        transform="matrix(0.26458333,0,0,0.26458333,-143.04508,41.11012)"
-       id="Page-1">
+       style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
       <g
-         style="fill:url(#linearGradient923)"
+         transform="matrix(0.06702579,0,0,0.06702579,799.61459,90.013118)"
          id="Group-3"
-         transform="matrix(0.06702579,0,0,0.06702579,799.61459,90.013118)">
+         style="fill:url(#linearGradient923)">
         <g
-           style="fill:url(#linearGradient921)"
+           transform="translate(173,185)"
            id="logo"
-           transform="translate(173,185)">
+           style="fill:url(#linearGradient921)">
           <path
-             style="fill:url(#linearGradient919)"
+             id="path10"
              d="m 0,382.95826 c 0.16261545,122.52332 59.029999,237.57138 158.36557,309.49905 1.85086,-8.34754 2.77579,-17.9503 2.77579,-28.88502 V 293.35308 c 0,-29.38205 -6.30933,-49.12064 -18.92035,-59.19448 -8.40727,-6.71583 -24.79147,-11.74571 -49.172451,-15.10377 V 188.82204 H 331.39914 v 99.49643 c 24.38099,-32.73996 45.39549,-56.67014 63.05074,-71.7808 33.62912,-28.54261 68.5091,-42.81941 104.66044,-42.81941 37.83273,0 65.9962,12.60025 84.49222,37.7848 13.45155,17.62915 20.19349,37.77417 20.19349,60.44024 0,20.98716 -5.46979,39.02367 -16.39927,54.13448 -14.29237,20.14758 -35.73933,30.23279 -64.32407,30.23279 -26.90335,0 -52.54815,-16.79179 -76.92918,-50.37117 -11.77015,-15.95009 -23.524,-23.92693 -35.2942,-23.92693 -21.01825,0 -39.51408,13.43854 -55.48779,40.3021 -12.61103,21.82649 -18.92046,48.27166 -18.92036,79.33256 v 237.99798 c 0,39.45613 5.87687,65.9011 17.64708,79.33246 11.77015,13.43186 36.16385,24.24849 74.40814,20.13843 C 587.61663,734.44649 766.75435,553.23457 767,359.31101 767.01296,147.81361 595.31071,0.0011317 383.50005,0 171.68924,0.0011317 -0.01295996,171.46086 0,382.95826 Z"
-             id="path10" />
+             inkscape:connector-curvature="0"
+             style="fill:url(#linearGradient919)" />
         </g>
       </g>
       <flowRoot
-         transform="matrix(0.79825606,0,0,0.79825606,639.98099,-96.743673)"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve"
          id="flowRoot925"
-         xml:space="preserve"><flowRegion
-           style="fill:#ffffff"
-           id="flowRegion927"><rect
-             style="fill:#ffffff"
-             y="259.66254"
-             x="331.42856"
-             height="560"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;"
+         transform="matrix(0.79825606,0,0,0.79825606,639.98099,-96.743673)"><flowRegion
+           id="flowRegion927"
+           style="fill:#ffffff;"><rect
+             id="rect929"
              width="8322.8574"
-             id="rect929" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'padmaa-Bold.1.1';-inkscape-font-specification:'padmaa-Bold.1.1';fill:#ffffff"
-           id="flowPara931">WALLET</flowPara></flowRoot>      <flowRoot
-         transform="matrix(2.0085767,0,0,2.0085767,207.06232,-445.13701)"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+             height="560"
+             x="331.42856"
+             y="259.66254"
+             style="fill:#ffffff;" /></flowRegion><flowPara
+           id="flowPara931"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'padmaa-Bold.1.1';-inkscape-font-specification:'padmaa-Bold.1.1';fill:#ffffff;">WALLET</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
          id="flowRoot925-3"
-         xml:space="preserve"><flowRegion
-           style="fill:#ffffff"
-           id="flowRegion927-6"><rect
-             style="fill:#ffffff"
-             y="259.66254"
-             x="331.42856"
-             height="560"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;"
+         transform="matrix(2.0085767,0,0,2.0085767,207.06232,-445.13701)"><flowRegion
+           id="flowRegion927-6"
+           style="fill:#ffffff;"><rect
+             id="rect929-7"
              width="8322.8574"
-             id="rect929-7" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'padmaa-Bold.1.1';-inkscape-font-specification:'padmaa-Bold.1.1';fill:#ffffff"
-           id="flowPara931-5">$</flowPara><flowPara
-           id="flowPara957"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'padmaa-Bold.1.1';-inkscape-font-specification:'padmaa-Bold.1.1';fill:#ffffff" /></flowRoot>      <rect
-         ry="1.24491"
-         y="73.157852"
-         x="737.62256"
-         height="122.22846"
-         width="326.78436"
+             height="560"
+             x="331.42856"
+             y="259.66254"
+             style="fill:#ffffff;" /></flowRegion><flowPara
+           id="flowPara931-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'padmaa-Bold.1.1';-inkscape-font-specification:'padmaa-Bold.1.1';fill:#ffffff;">$</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'padmaa-Bold.1.1';-inkscape-font-specification:'padmaa-Bold.1.1';fill:#ffffff;"
+           id="flowPara957" /></flowRoot>      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
          id="rect959"
-         style="opacity:1;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+         width="326.78436"
+         height="122.22846"
+         x="737.62256"
+         y="73.157852"
+         ry="1.24491" />
     </g>
   </g>
 </svg>
