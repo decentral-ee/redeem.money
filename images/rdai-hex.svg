@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="767px"
-   height="740px"
-   viewBox="0 0 767 740"
+   width="165"
+   height="183.87601"
+   viewBox="0 0 165 183.87601"
    version="1.1"
    id="svg1788"
    sodipodi:docname="rdai-hex.svg"
@@ -43,19 +43,19 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="1.2756757"
-     inkscape:cx="441.97409"
-     inkscape:cy="489.45669"
+     inkscape:cx="57.270702"
+     inkscape:cy="83.619269"
      inkscape:window-x="338"
      inkscape:window-y="194"
      inkscape:window-maximized="0"
      inkscape:current-layer="g2519">
     <sodipodi:guide
-       position="411.50781,425.72708"
+       position="82.4612,135.90661"
        orientation="0,1"
        id="guide2782"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="411.50781,341.72968"
+       position="82.4612,51.909209"
        orientation="0,1"
        id="guide2784"
        inkscape:locked="false" />
@@ -68,10 +68,10 @@
   <defs
      id="defs1782">
     <linearGradient
-       x1="9.39779518%"
-       y1="88.3248351%"
-       x2="106.181899%"
-       y2="34.5692976%"
+       x1="0.093977951"
+       y1="0.88324839"
+       x2="1.061819"
+       y2="0.34569299"
        id="linearGradient-1">
       <stop
          stop-color="#FF3A54"
@@ -91,13 +91,13 @@
          id="stop1779" />
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
        filterUnits="userSpaceOnUse"
-       height="183.876"
+       height="183.87601"
        width="165"
-       y="0.0332031"
+       y="0.033203099"
        x="0"
-       id="filter0_d_freedom">
+       id="filter0_d_freedom"
+       style="color-interpolation-filters:sRGB">
       <feFlood
          id="feFlood2449"
          result="BackgroundImageFix"
@@ -130,13 +130,13 @@
          mode="normal" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        filterUnits="userSpaceOnUse"
-       height="84.9974"
-       width="84.9224"
-       y="48.0026"
+       height="84.997398"
+       width="84.922401"
+       y="48.002602"
        x="40"
-       id="filter1_i_freedom">
+       id="filter1_i_freedom"
+       style="color-interpolation-filters:sRGB">
       <feFlood
          id="feFlood2464"
          result="BackgroundImageFix"
@@ -164,7 +164,9 @@
          k3="1"
          k2="-1"
          operator="arithmetic"
-         in2="hardAlpha" />
+         in2="hardAlpha"
+         k1="0"
+         k4="0" />
       <feColorMatrix
          id="feColorMatrix2476"
          values="0 0 0 0 1 0 0 0 0 0.810252 0 0 0 0 0.362445 0 0 0 1 0"
@@ -176,7 +178,7 @@
          mode="normal" />
     </filter>
     <radialGradient
-       gradientTransform="translate(82.4612 90.0012) rotate(90) scale(41.9987 42.4612)"
+       gradientTransform="matrix(0,41.9987,-42.4612,0,82.4612,90.0012)"
        gradientUnits="userSpaceOnUse"
        r="1"
        cy="0"
@@ -193,10 +195,10 @@
     <linearGradient
        gradientUnits="userSpaceOnUse"
        gradientTransform="scale(1.0180798,0.98224127)"
-       y2="260.43786"
-       x2="799.95216"
+       y2="260.43787"
+       x2="799.95215"
        y1="665.42084"
-       x1="70.801019"
+       x1="70.801018"
        id="linearGradient2558"
        xlink:href="#linearGradient-1"
        inkscape:collect="always" />
@@ -204,8 +206,8 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="scale(1.0180798,0.98224127)"
        y2="448.78262"
-       x2="969.8799"
-       y1="853.7656"
+       x2="969.87988"
+       y1="853.76562"
        x1="240.72876"
        id="linearGradient2562"
        xlink:href="#linearGradient-1"
@@ -216,18 +218,18 @@
        id="linearGradient2596"
        gradientUnits="userSpaceOnUse"
        gradientTransform="scale(1.0180798,0.98224127)"
-       x1="70.801019"
+       x1="70.801018"
        y1="665.42084"
-       x2="799.95216"
-       y2="260.43786" />
+       x2="799.95215"
+       y2="260.43787" />
     <filter
-       color-interpolation-filters="sRGB"
        filterUnits="userSpaceOnUse"
-       height="183.876"
+       height="183.87601"
        width="165"
-       y="0.0332031"
+       y="0.033203099"
        x="0"
-       id="filter0_d_freedom-8">
+       id="filter0_d_freedom-8"
+       style="color-interpolation-filters:sRGB">
       <feFlood
          id="feFlood2710"
          result="BackgroundImageFix"
@@ -260,13 +262,13 @@
          mode="normal" />
     </filter>
     <filter
-       color-interpolation-filters="sRGB"
        filterUnits="userSpaceOnUse"
-       height="84.9974"
-       width="84.9224"
-       y="48.0026"
+       height="84.997398"
+       width="84.922401"
+       y="48.002602"
        x="40"
-       id="filter1_i_freedom-7">
+       id="filter1_i_freedom-7"
+       style="color-interpolation-filters:sRGB">
       <feFlood
          id="feFlood2725"
          result="BackgroundImageFix"
@@ -294,7 +296,9 @@
          k3="1"
          k2="-1"
          operator="arithmetic"
-         in2="hardAlpha" />
+         in2="hardAlpha"
+         k1="0"
+         k4="0" />
       <feColorMatrix
          id="feColorMatrix2737"
          values="0 0 0 0 1 0 0 0 0 0.810252 0 0 0 0 0.362445 0 0 0 1 0"
@@ -306,7 +310,7 @@
          mode="normal" />
     </filter>
     <radialGradient
-       gradientTransform="translate(82.4612 90.0012) rotate(90) scale(41.9987 42.4612)"
+       gradientTransform="matrix(0,41.9987,-42.4612,0,82.4612,90.0012)"
        gradientUnits="userSpaceOnUse"
        r="1"
        cy="0"
@@ -324,7 +328,7 @@
   <g
      style="fill:none"
      id="g2519"
-     transform="translate(301,278.02879)">
+     transform="translate(-28.046611,11.725269)">
     <g
        style="fill:none"
        id="g2780"
