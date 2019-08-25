@@ -7547,7 +7547,7 @@
                     development: "https://widget.development.airswap.io",
                     sandbox: "https://widget.sandbox.airswap.io",
                     //production: "https://widget.airswap.io"
-                    production: "https://redeem.money/static/js"
+                    production: "https://redeem.money"
                 },
                 c = Object(r.a)({
                     tag: "airswap-cross-domain",
