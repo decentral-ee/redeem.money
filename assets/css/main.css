@@ -89,6 +89,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+.mx-0{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.text-sm{
+	font-size: 0.8em;
+}
 /* Basic */
 
 	@-ms-viewport {
@@ -2973,9 +2980,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', end
 				background: white;
 				margin: 0.2em;
 			}
+			.team-members .spotlight .image img{
+				height: 5em;
+			}
 
+		.team-members .spotlight{
+			flex-wrap: wrap !important;
+			justify-content: space-around;
+		}
+
+		.team-members li {
+			padding: 0;
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+			margin:0.8em;
+		}
+		.team-members li *{
+			text-align: center !important;
+		}
+		.team-members li .image{
+			margin-right: auto !important;
+			margin-left: auto !important;
+			margin-bottom: 0;
+		}
+		.team-members .info{
+			width: 100%
+		}
+		.team-members li .job-title{
+			font-style: italic;
+		}
+	.team-members li{
+		max-width: calc(16% - 1.6em);
+	}
 		@media screen and (max-width: 980px) {
-
 			.spotlight {
 				-moz-flex-direction: column-reverse;
 				-webkit-flex-direction: column-reverse;
@@ -3013,7 +3051,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', end
 					margin-left: 0;
 					margin-bottom: 2em;
 				}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3025,11 +3062,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', end
 				.spotlight .image img {
 					width: 15em;
 				}
+			.team-members li{
+				max-width: calc(30% - 1.6em) !important
+			}
+		}
 
+		@media screen and (max-width: 480px){
+			.team-members li{
+				max-width: calc(50% - 1.6em) !important;
+			}
 		}
 
 	.spotlight .image {
 		border-color: rgba(255, 255, 255, 0.35);
+	}
+
+	.team-pictures {
+    padding: 0.65em;
+    margin-top: 1.6em;
+	}
+	.team-pictures > div{
+		display: flex;
+		justify-content: center;
+		margin: 0 !important;
+		padding: 0 !important;
+		align-items: center;
+		height: 60px !important;
+	}
+	.team-pictures >div .avatar img{
+		border-radius: 100%;
+		width: 50px;
+		height: 50px;
+		margin:5px !important;
+		margin-right: 10px !important;
 	}
 
 /* Header */
