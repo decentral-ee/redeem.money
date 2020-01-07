@@ -27,7 +27,7 @@
 			}, 100);
 			$.ajax({
 				type:"GET",
-					url:"https://api.compound.finance/api/v2/ctoken?addresses[]=0xf5dce57282a584d2746faf1593d3121fcac444dc",
+					url:"https://api.compound.finance/api/v2/ctoken?addresses[]=0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643",
 				success: function(data) {
 					$('.interest-rate').text(Math.round(data.cToken[0].supply_rate.value*10000)/100 +'%');
 				}
