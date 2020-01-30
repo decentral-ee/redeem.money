@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>RTOKEN Solvency Stats</title>
+</head>
+
+<body>
+  <canvas id="rDAIChart"></canvas>
+  <canvas id="rSAIChart"></canvas>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource"></script>
+  <script>
+const chartColors = {
+	red: "rgb(255, 99, 132)",
+	blue: "rgb(54, 162, 235)",
+	green: "rgb(54, 255, 128)",
+};
+const color = Chart.helpers.color;
+
+function createChartConfig(name, url) {
+return {
+	plugins: [ChartDataSource],
+	type: "bar",
+    responsive:true,
+    maintainAspectRatio: false,
+	data: {
+		datasets: [
+        {
+            hidden: true,
+		},
+        {
+            hidden: true,
+		},
+        {
+			type: "line",
+			yAxisID: "totalSupply",
+			backgroundColor: "transparent",
+			borderColor: chartColors.red,
+			pointBackgroundColor: chartColors.red,
+			tension: 0,
+			fill: false,
+		},
+        {
+            hidden: true,
+		},
+        {
+			type: "bar",
+			yAxisID: "surplus",
+			backgroundColor: chartColors.blue,
+			borderColor: chartColors.blue,
+			pointBackgroundColor: chartColors.blue,
+			tension: 0,
+			fill: false,
+		},
+        {
+            hidden: true,
+		},
+        ]
+	},
+	options: {
+		title: {
+			display: true,
+			text: name + " - Solvency Data"
+		},
+		scales: {
+			xAxes: [{
+                id: "date",
+			}],
+			yAxes: [
+            {
+				id: "totalSupply",
+                position: "left",
+				gridLines: {
+					drawOnChartArea: false
+				},
+				scaleLabel: {
+					display: true,
+					labelString: "Total Supply"
+				}
+			},
+            {
+				id: "surplus",
+                position: "right",
+				gridLines: {
+					drawOnChartArea: false
+				},
+				scaleLabel: {
+					display: true,
+					labelString: "Surplus"
+				}
+			}
+            ]
+		},
+		plugins: {
+			datasource: {
+				type: "csv",
+				url: url,
+				delimiter: ",",
+                rowMapping: "index",
+				datasetLabels: true,
+				indexLabels: true,
+                datapointLabelMapping: {
+                    _index: "date",
+                }
+			}
+		}
+	}
+};
+}
+
+const rdaiChartConfig = createChartConfig("rDAI", "data/rdai-solvency.csv");
+const rsaiChartConfig = createChartConfig("rSAI", "data/rsai-solvency.csv");
+
+window.onload = function() {
+    {
+	    const ctx = document.getElementById("rDAIChart").getContext("2d");
+	    new Chart(ctx, rdaiChartConfig);
+    }
+    {
+	    const ctx = document.getElementById("rSAIChart").getContext("2d");
+	    new Chart(ctx, rsaiChartConfig);
+    }
+}
+  </script>
+</body>
+</html>
