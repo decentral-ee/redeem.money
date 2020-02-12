@@ -50,15 +50,36 @@ return {
 		},
         {
 			type: "bar",
-			yAxisID: "surplus",
+			yAxisID: "error",
 			backgroundColor: chartColors.blue,
 			borderColor: chartColors.blue,
 			pointBackgroundColor: chartColors.blue,
 			tension: 0,
 			fill: false,
 		},
-        {
+        { //allocation strategy
             hidden: true,
+		},
+        { // lRecipientsTotal
+            hidden: true,
+		},
+        { // lDebtTotal
+            hidden: true,
+		},
+        { // rInterestTotal
+            hidden: true,
+		},
+        { // payableInterestsTotal
+            hidden: true,
+		},
+        { // supplyDeficit
+			type: "bar",
+			yAxisID: "error",
+			backgroundColor: chartColors.green,
+			borderColor: chartColors.green,
+			pointBackgroundColor: chartColors.blue,
+			tension: 0,
+			fill: false,
 		},
         ]
 	},
@@ -84,14 +105,14 @@ return {
 				}
 			},
             {
-				id: "surplus",
+				id: "error",
                 position: "right",
 				gridLines: {
 					drawOnChartArea: false
 				},
 				scaleLabel: {
 					display: true,
-					labelString: "Surplus"
+					labelString: "Error"
 				}
 			}
             ]
